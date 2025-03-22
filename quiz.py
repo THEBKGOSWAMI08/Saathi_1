@@ -31,7 +31,7 @@ def get_pdf_text(pdf_docs):
         for page in pdf_reader.pages:
             text += page.extract_text() or ""
     return text
-
+#hello
 # Extract text from a URL
 def fetch_url_content(url):
     try:
